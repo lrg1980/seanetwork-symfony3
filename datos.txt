@@ -1,0 +1,16 @@
+000webhost.com
+email: leonardograbow@gmail.com
+Pass Account: vPcyK6@xgrs#s%iGl7UP
+
+nombre BD: sea_network_social
+nombre user BD: l0r04m3ric4n0
+Pass BD: vPc6@grs#s%iG7P
+
+Nombre de Base de Datos			Usuario de Base de Datos	Host de Base de datos	 
+id9285715_sea_network_social	id9285715_l0r04m3ric4n0			localhost
+
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST FILENAME} !-f
+    RewriteRule  ^(.*)$ /web/$1 [QSA,L]
+</ifModule>
